@@ -1,0 +1,9 @@
+programa {
+	funcao inicio() {
+		real c, f
+		escreva("QUAl a temperatura em fahrenheit")
+		    leia(f)
+		        c = ((f - 32) / 9) * 5
+		 escreva("em celsius é", c)
+	}
+}
