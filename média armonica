@@ -1,0 +1,15 @@
+programa {
+	funcao inicio() {
+		real nota1, nota2, nota3, med
+		escreva("\ninsira a nota 1 ")
+		    leia(nota1)
+		escreva("\ninsira a nota 2 ")
+		    leia(nota2)
+		escreva("\ninsira nota 3 ")
+		    leia(nota3)
+		        med = 3 / ((1/nota1) + (1/nota2) + (1/nota3))
+		escreva("\nmedia =", med)
+		
+		
+	}
+}
